@@ -1,9 +1,9 @@
 # Every Layout
 
-**Author:** Heydon Pickering & Andy Bell
+**Author:** Heydon Pickering & Andy Bell  
 **Full title:** Debugging CSS  
-**Source:** #CSS #JavaScript #Layout (Moon+ Reader)
-**URL:** https://every-layout.dev/
+**Source:** #CSS #JavaScript #Layout (Moon+ Reader)  
+**URL:** https://every-layout.dev/  
 
 
 - ## Boxes
