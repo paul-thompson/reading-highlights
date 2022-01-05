@@ -43,3 +43,7 @@
    
 - 🔻 In the inverted pyramid structure, you say the most important thing first, then add more detail as you go along. You start broad, and gradually get narrow as you focus in. https://t.co/SCnB4m6Scn 
    
+- ⏩ One study found that clearly structured paragraphs help readers read quicker, understand better and remember more. https://t.co/0QQf42CFRZ 
+   
+- ‘I didn’t have time to write a short letter, so I wrote a long one instead.’ – Blaise Pascal 
+   

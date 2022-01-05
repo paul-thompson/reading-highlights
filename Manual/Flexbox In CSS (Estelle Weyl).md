@@ -1,0 +1,285 @@
+- **Author:** [[Estelle Weyl]]
+- **Full title:** Flexbox in CSS
+- **Source:** #books #api_book #readwise
+- **Tags:** #highlight
+- **Imported:** November 15th, 2021 7:19 AM
+- **Modified:**
+- ---
+- ## The Problem Addressed
+    - By design, flexbox is direction-agnostic.
+    - The web was originally designed for the creation of pages on monitors.
+    - Vertically-biased layout is insufficient for modern applications that change orientation, grow, and shrink depending on the user agent and the direction of the viewport, and change writing modes depending on the language.
+    - Between collapsing margins and dropping floats, the old layout method could be downright confusing.
+    - Note that flexbox was designed for a specific type of layout, that of single-dimensional content distribution.
+- ##  Simple Solutions
+    - by dictating how space is distributed, content is aligned, and displays are visually ordered, enabling the appearance of stretching, shrinking, reversing, and even rearranging the appearance of content without altering the underlying markup.
+    - Flexbox is a declarative way to calculate and distribute space.
+- ##  Learning Flexbox
+    - Learning Flexbox
+    - Flexbox is a parent and child relationship.
+    - Flexbox works on an axis grid system.
+    - it will only flex its immediate children, and not further descendants
+- ##  The display Property
+    - There are currently 30 values for the display
+    - property descriped in the various specifications.
+    - Box-model properties do impact flex layout. Had we not included these properties, all the flex items would be bunched up against the flex container and against each other
+- ##  Flex Container
+    - Flex Container
+    - flex container, also known as container box.
+    - Once we have created a flex container (by adding a display: flex
+    - or display: inline-flex
+    - ), we need to learn how to manipulate the layout of the container’s children.
+    - The children of this container box are flex items
+- ##  The flex-flow Shorthand Property
+    - The flex-flow
+    - property lets you define the directions of the main and cross axes and whether the flex items can wrap to more than one line if needed.
+- ##  The flex-direction Property
+    - —the direction the flex items are laid out in—is the direction of the current writing mode.
+    - flex-direction: row
+    - will lay the flex items in the same direction as the text direction, also known as the writing mode, whether it’s a RTL or LTR language.
+    - The writing mode is set by the writing-mode
+    - , direction
+    - , and text-orientation
+    - properties or the dir
+    - attribute in HTML.
+    - In left-to-right languages, they will be aligned from left to right: the left side is referred to main-start and the right is main-end
+    - the attribute dir="rtl"
+    - on the flex container or an ancestor in the HTML, or with direction: rtl
+    - on the flex container or container’s ancestor in the CSS
+    - The column
+    - value sets the flex container’s main-axis to be the same orientation as the block axis of the current writing mode.
+    - Basically, it sets the flex-container’s main-axis to vertical in most cases.
+    - If a vertical writing mode is specified, then all of the content is vertical, whether one of the listed vertically written languages or even English
+    - The direction controls the inline “base direction,” the direction in which content within a line is ordered.
+- ##  The flex-wrap Property
+    - If the flex items’ main-dimensions don’t all fit across the main-axis of the flex container, by default the flex items will not wrap
+    - items may shrink if allowed to do so via the flex item’s flex
+    - property (see “The flex
+    - Property”) and/or the flex items may overflow the bounding container box.
+    - The flex-wrap
+    - property controls whether the flex container is limited to being a single-line container or is allowed to become multiline if needed
+    - When there are two or more flex lines, the second line and subsequent flex lines are added in the direction of the cross-axis.
+    - Flex lines are as tall or wide as their tallest or widest flex item within that line.
+    - fully understanding all the complexities of flexbox is not.
+    - introduced possibly confusing terms like main-axis, main-start, and main-end and cross-axis, cross-start, and cross-end. To fully grasp flexbox and all the flexbox properties, it is important to understand.
+    - To understand flex layout you need to understand the physical directions, axes, and sizes affecting the flex container and its flex items.
+- ##  Understanding axes
+    - Flex items are laid out along the main-axis.
+    - The “main-” terms have to do with flex items.
+    - The “cross-” terms come into play on multiline flex containers
+    - the main size refers to the widths of the flex items and flex container. In the case of column
+    - and column-reverse
+    - , the main size is height.
+    - The main-axis is the primary axis along which flex items are laid out,
+    - the dir
+    - attribute and CSS writing-mode
+    - property because HTML’s dir
+    - attribute concerns HTML content, and the writing-mode
+    - property concerns layout.
+    - The “cross-” directions come into play when it comes to adding additional lines of flex items, known as flex lines.
+    - the cross directions determine the direction of additional lines in multiline flex containers.
+    - The cross-axis is perpendicular to the main-axis.
+- ##  flex-wrap continued
+    - The default value of nowrap
+    - prevents wrapping, so the cross-
+    - directions just discussed aren’t relevant when there is no chance of a second flex line.
+    - Additional flex lines get added on top of the previous line.
+    - With column
+    - , just like with row
+    - , if the flex items don’t fit within the flex container’s main dimension, they’ll overflow the flex container, unless explicitly forced with min-width: 0
+    - or similar,
+    - flex items will not shrink to smaller than their border, padding and margins combined.
+    - When "flex-direction: column; flex-wrap: wrap;
+    - " or "flex-flow: column wrap;
+    - " is set on a flex container, the flex item children are aligned along the main-axis. In LTR modes, the first flex item is placed in the top left, which is the main-start and cross-start respectively.
+- ##  Flex Line Cross Dimension
+    - All the flex items in a single line were the same height, but the individual flex lines were not of the same height: instead all the flex items were as tall as the tallest flex item within that same flex line.
+- ##  Flex Container #
+    - The flex layout specification provides us with flex container properties to control the distribution of space
+    - The align-content defines how flex lines are distributed along the cross-axis of the flex container.
+    - The align-items property defines how the flex items are distributed along the cross-axis of each of those flex lines.
+    - ##  The justify-content Property
+        - The space-between value puts the first flex item on a flex line flush with main-start and the last flex item in each flex line flush with main-end, and then puts an equal amount of space between every pair of adjacent flex items
+        - space-around evenly distributes the flex items, as if there were noncollapsing margins of equal size around each item.
+        - As the justify-content property is applied to the flex container, the flex items will be distributed in the same manner whether they’re on a filled first flex line or on a partially filled subsequent flex line in a wrapping flex container.
+        - If there isn’t enough room for all the items, and nowrap is the default or expressly set, the items will overflow on the main-end edge
+        - With space-between, the first item is flush with main-start, which is important to remember when you only have one flex item or when your flex items overflow the flex container in a nowrap scenario. This means, if there is only one flex item, it will be flush with main-start, not centered, which seems counterintuitive to many at first.
+        - With justify-content: space-between
+        - the space between any two items on a flex line will be equal but won’t necessarily be the same across flex lines.
+        - The layout when there is negative free space should now be more intuitive:
+        - flex-start and space-between overflow at main-end.
+        - flex-end overflows at main-start.
+        - center and space-around overflow on both ends.
+    - ##  The align-items Property
+        - With the align-items property, you can align flex items to the start, end, or center of the cross-axis of their flex line.
+        - the align-self property enables overriding the alignment for individual flex items.
+        - The general idea is flex-start places the flex items on the cross-start, flex-end puts them on the cross-end edge, center centers them on the cross-axis, the default stretch stretches the flex item from cross-start to cross-end, and baseline looks similar to flex-start but actually lines up the baselines of the flex items and then pushes the group of flex items toward cross-start.
+    - ##  align-items: stretch
+        - stretch
+        - stretches all the stretchable flex items in a line to be as tall or wide as the tallest or widest flex item on the line.
+        - The cross-size of the flex items includes the margins
+        - Flex lines are only as tall as they need to be to contain their flex containers.
+    - ##  align-items: center
+        - flex item margins do not collapse.
+        - Flex items may overflow their parent flex container along in the main-axis if nowrap is set and the main-size is constrained. Similarly, if the flex container’s cross-size is constrained, the contents may overflow the flex container’s cross-start and/or cross-end edge.
+    - ##  align-items: baseline
+        - With baseline, the flex items in each line are all aligned at their baselines, which is basically the bottom of the first line of text, if there is any.
+        - In many implementations, baseline will look like flex-start, but will differ from the flex-start value if the flex items have different margins, padding, or border on the cross-start side, or if the first lines of content of the flex items don’t all have the same line heights.
+    - ##  Additional Notes
+        - The align-self takes the same values as align-items,
+        - You cannot override the alignment for anonymous flex items (nonempty text node children of flex containers): their align-self always matches the value of align-items of their parent flex container.
+        - The align-content property only impacts flex line alignment in multiline flex containers.
+    - ##  The align-content Property
+        - Think of align-content as similar to how justify-content aligns individual items along the main-axis of the flex container, but for flex lines across the cross-axis of the container.
+    - ##  Distribution of extra space
+        - The stretch value is different: with stretch the lines stretch with the extra space evenly distributed among the flex lines rather than between them.
+        - Stretch is the default value, as you likely want to fill all the available space.
+        - If there isn’t enough room for all the lines, they will overflow at cross-start, cross-end, or both, depending on the value of the align-content property,
+    - ##  align-content: space-between
+        - When align-content: space-between
+        - is set, the flex lines are evenly distributed in the flex container. The even distribution is based on the available space, not the size of the lines; the extra space is divided equally among the lines, not proportionally
+        - Only flex containers with multiple lines can have free space in the cross-axis for lines to be aligned in. If there is only one line, the align-content property will not impact the distribution of the content.
+- #  Flex Items #
+    - With these flex item–specific properties, we can more precisely control the layout of individual flex containers’ non-anonymous flex items
+- ##  What Are Flex Items?
+    - The children of those flex container are called flex items, be they DOM nodes, nonempty text nodes, or generated content.
+    - While these anonymous flex items do inherit all the flex properties set by the flex container, just like their DOM node siblings, they are not directly targetable with CSS.
+- ##  Flex Item Features
+    - Flex Item Features
+    - The margins of flex items do not collapse. The float and clear properties don’t have an effect on flex items, and do not take a flex item out of flow.
+    - the float property can still affect box generation by influencing the display property’s computed value
+    - As the image is a flex item, the float is ignored. Even though images and text nodes are inline-level nodes, being flex items, as long as they are not absolutely positioned, they are blockified
+- ##  Absolute positioning
+    - item—as the child is a flex item and the float is ignored—setting position: absolute
+    - is a different story.
+    - The absolutely-positioned children of flex containers, just like any other absolutely-positioned element, are taken out of the flow of the document.
+    - they can be impacted by the properties set on the flex container, just like a child can be impacted by a parent element that isn’t a flex container
+    - the parent’s properties impact the origin of the positioning.
+    - The absolutely positioned child of a flex container is impacted by both the justify-content value of the parent flex container and its own align-self value,
+- ##  min-width
+    - min-width
+    - In the CSS 2.1 specification, the default value for min-width is 0. Now, for flex items, the implied minimum size is auto, not 0.
+    - if we declare min-width: 0;
+    - —the flex items in the nowrap example will shrink to be narrower than the flex items in containers that are not allowed to wrap
+- ##  Flex Item–Specific Properties
+    - Flex Item–Specific Properties
+    - The defining aspect of flex layout is the ability to make the flex items “flex”: altering their width or height to fill the available space in the main dimension
+    - A flex container distributes free space to its items proportional to their flex grow factor, or shrinks them to prevent overflow proportional to their flex shrink factor.
+- ##  The flex Property
+- ##  The flex-grow Property
+    - The flex-grow Property
+    - how much will it grow proportionally relative to the growth of other flex item siblings.
+    - The value flex-grow and of the flex-grow portion of the flex shorthand is always a number. Negative numbers are not valid. Float values, as long as they are greater than 0, are valid.
+    - how much the flex item will grow relative to the rest of the flex item siblings as the flex container’s free space is distributed.
+    - As noted in “min-width”, if no width or flex basis is set, the flex basis defaults to auto, meaning each flex item basis is the width of its nonwrapped content.
+    - auto is a special value: it defaults to content unless the item has a width set on it, at which point the flex-basis becomes that width.
+    - Note that the amount of distributable space depends on the basis.
+- ##  Non-Null Growth Factor
+    - The growth factor needs to be a positive, non-null float value for the flex item to grow
+- ##  Growing Proportionally Based on Growth Factor
+    - Growing Proportionally Based on Growth Factor
+    - With 5 growth factors, and a total of 450 px needing to be distributed, each growth factor is worth 90 px
+- ##  Growth Factor with Different Widths
+    - Growth Factor with Different Widths
+    - the available space is distributed proportionally among the flex items in each flex row based on the flex growth factors, without regards to the original, underlying widths.
+- ##  Growth Factors and the flex Property
+- Growth Factors and the flex Property
+- if neither flex nor flex-grow is included, it defaults to 0.
+- logic would also dictate that it makes no sense to have content overflowing its flex item if the flex container has the room for all the content, even if the basis is set to zero.
+- When the flex property declaration explicitly sets or defaults the flex-basis to 0 px and a flex item’s growth factor is 0, the length of the main-axis of the nongrowing flex items will shrink to the smallest width the content allows, or smaller.
+- If all items are allowed to grow, and the flex basis for each flex item is 0%, all of the space—the entire 750 px rather than just excess space—is distributed proportionally based on the growth factors.
+- as the flex basis is zero, rather than auto, and with no positive shrink factors, the first two flex items are only as wide as their widest content
+- is why it is highly encouraged to always use the flex shorthand instead of flex-grow, flex-shrink, and flex-basis separately or not at all.
+- When using flex-grow instead of the flex shorthand, the flex basis will be auto instead of 0.
+- ##  The flex-shrink Property
+    - The flex-shrink portion of the flex shorthand property specifies the shrink factor.
+    - A flex shrink factor of 0 will not allow flex items to shrink;
+    - When omitted in the shorthand flex property value or when both flex and flex-shrink are omitted, the shrink factor defaults to 1. Like the growth factor, the value is always a number.
+    - If the flex item contains content that cannot wrap or otherwise shrink in the main-dimension, the flex item will not shrink.
+- ##  Proportional Based on Width and Shrink Factor
+    - Proportional Based on Width and Shrink Factor
+    - Flex items shrink proportionally relative to both the shrink factors and the flex item width, with the width often being content, the width of the flex item’s content with no wrapping.
+    - To get the shrink factor proportions, we divide the negative space by the actual space times their shrink factors
+- ##  In the Real World
+    - In the Real World
+    - Allowing flex items to shrink proportionally like this allows for responsive objects and layouts that can shrink proportionally without breaking
+- ##  Differing Bases
+    - Because the flex property’s shrink factor reduces the width of flex items proportionally, the number of lines of text in the flex items will grow or shrink as the width shrinks or grows, leading to similar height content within sibling flex items when the shrink factors are similar
+    - The width of the flex items is the purview of flex-basis.
+    - Adding in varying shrink and growth factors makes it all a little less intuitive. That’s why you likely want to always declare the flex shorthand, preferably with a width or basis set for each flex item.
+- ##  The flex-basis Property
+    - The flex-basis Property
+    - flex resets to common usage (rather than defaulting) the grow, shrink, and basis values if any of them are not declared within the shorthand
+    - When flex-basis is set, instead of flex, flex items can shrink but will not grow, as if flex: 0 1
+    - were set.
+    - a flex item’s size is impacted by its content and box-model properties and can be reset via the three components of the flex property.
+    - None of the flex properties are inherited by default
+- ##  content
+    - Until support is complete, flex-basis: content;
+    - can be easily polly-filled as it is the equivalent of declaring flex-basis: auto; width: auto;
+    - on that flex item, or flex-basis: auto; height: auto;
+    - Until the content value is supported everywhere, you can replicate it by setting (or defaulting) the width/height and basis to auto.
+- ##  auto
+    - When there are no other properties setting the main-size of the flex items (there’s no width or even min-width set on these flex items), and flex-basis: auto;
+    - or flex: 0 1 auto;
+    - is set, the flex items will only be as wide as they need to be for the content to fit
+    - main-start because the flex container’s justify-content defaults to flex-start.
+- ##  Length Units
+    - The widths are overridden by the bases.
+    - While the declared basis can override the main-size of flex items, the size can be impacted by other properties, such as min-width, min-height, max-width, and max-height.
+- ##  Length units: percentages
+    - Remember: when the flex basis is a percent value, the main-size is relative to the parent, which is the flex container.
+    - negative space to remove proportionally among the 3 flex items. To figure out the ratio, we divide the available width of our flex container by the sum of widths of the flex items that they would have if they couldn’t shrink
+- ##  Zero Basis
+    - If the basis of each of the flex items is 0, the “available” space is all the space, or main-size of the parent flex container.
+- ##  flex: initial
+    - flex: initial;
+    - flex: 0 1 auto;
+    - flex: initial
+    - is the equivalent of flex: 0 1 auto
+    - . This means the flex items’ size will be based on its own width and height properties, or based on the contents if the main-size isn’t explicitly set (set or defaulting to auto).
+- ##  flex: none
+    - Setting flex: none
+    - is equivalent to setting flex: 0 0 auto
+- ##  flex: n
+    - With flex: n
+    - , the basis of the flex item is 0, not auto, so setting a width will not alter the appearance
+- ##  Sticky Footer with flex
+    - body {
+    - display: flex;
+    - flex-direction: column;
+    - min-height: 100vh;
+    - }
+- ##  The align-self Property
+    - You can override the alignment of any individual flex item with the align-self property,
+    - All the flex items have the align-self’s default value of auto set
+    - , meaning they inherit the alignment from the container’s align-items property,
+- ##  The order property
+    - The order property
+    - Flex items are, by default, displayed and laid out in the same order as they appear in the source code
+    - By default, all flex items are assigned the order of 0, with the flex items being displayed in the same order as the source order and the direction of that order based on the flex container properties
+    - To change the visual order of a flex item, set the order property value to a nonzero integer.
+    - The flex container lays out its content in order-modified document order, starting from the lowest numbered ordinal group and going up.
+    - Setting the same order value to more than one flex item, the items will appear by ordinal group, and by source order within each individual ordinal group.
+    - This reordering is purely visual. Screen readers should read the document as it appeared in the source code.
+- ##  Tabbed Navigation Revisited
+    - The order should only be used for visual reordering of content. Your underlying markup should always reflect the logical order of your content
+- ##  Responsive Two-Column Layout
+    - Remember, when flex basis is 0, the available space of the container (not just the extra space) is distributed proportionally based on the growth factors present.
+    - In the case of flex-basis: auto;
+    - , the extra space is distributed proportionally based on the flex growth factors.
+- ##  Wider Screen Layout
+    - We limit the width of the layout to 75 rems, again, using rems to allow the layout to remain stable if the user grows or shrinks the font size
+- ##  Power Grid Home Page
+    - by default flex items stretch to be height of the flex line.
+- ##  Vertical Centering
+    - With the align-items, align-self, and justify-content properties, we can now vertically and horizontally center items.
+- ##  Inline Flex Example
+    - By default, the width of the inline flex container is the width of the content.
+- ##  Calendar
+    - the children of flex containers are flex items, including generated content.
+- ##  Good to Go
+    - remember, in a single multivalue property declaration, like flex, if any value is invalid, CSS requires the entire declaration be ignored
+    - flex: content
+    - last, after the fallback of flex: auto
+    - , so that browsers supporting content will get the content, and older browsers will fall back to auto. 

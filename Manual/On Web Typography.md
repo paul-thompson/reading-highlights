@@ -1,0 +1,341 @@
+- **Author:** [[Jason Santa Maria]]
+- **Tags:** #Typography #[[Book Highlights]]
+- **Source:** #MoonReader
+- ---
+- ## Foreword
+    - BEFORE USERS start reading a single word of text on a website, they are already judging the typography
+    - Typography—its size, style, and system—helps tell people what all this content is actually
+- ## What This Book Will Do
+    - Typography is a practice of small improvements made in concert to create a whole better than the sum of its parts.
+- ## Chapter 1. How We Read  [[reading]]
+    - The intention of a text depends on its presentation, but it needs you to give it meaning through reading
+    - type is efficient, flexible, portable, and translatable.
+    - One of design’s functions is to entice and delight. We need to welcome readers and convince them to sit with us. But what circumstances affect reading
+    - ## Readability
+        - Just because something is legible doesn’t mean it’s readable
+        - You’ve heard of TL;DR (too long; didn’t read)?
+        - To paraphrase Stephen Coles, the term readability doesn’t ask simply, “Can you read it?” but “Do you want to read it?” ([http://bkaprt.com/owt/2/](http://bkaprt.com/owt/2/)
+    - ## The Act of Reading
+        - Reading isn’t linear. Instead, our eyes perform a series of back and forth movements called saccades, or lightning-fast hops across a line of text (FIG 1.2). Sometimes it’s a big hop; sometimes it’s a small hop
+        - Between saccades, our eyes stop for a fraction of a second in what’s called a fixation (FIG 1.3). During this brief pause we see a couple of characters clearly, and the rest of the text blurs out like ripples in a pond.
+        - This is because letters generally carry more of their identifying features in their top halves. The sum of each word’s letterforms creates the word shapes we recognize when reading
+        - an idea best encapsulated by type designer Zuzana Licko: “Readers read best what they read most
+        - The more foreign the letterforms and information are to us, the more slowly we discern them. If
+        - Most findings agree that ease of reading relies on the visual feel and precision of the text’s setting (how much effort it takes to discern one letterform from another), combined with the reader’s own proficiency.
+        - Running text in all caps can be hard to read quickly when we’re used to sentence case.
+        - Realizing that the choices we make in typefaces and typesetting have such an impact on the reader was eye-opening for me
+        - When they don’t notice those choices, we’ve done our job.
+        - ## Stacking the Deck
+            - Typography on screen differs from print in a few key ways. Readers deal with two reading environments: the physical space (and its lighting) and the device.
+            - The experience of reading and the effectiveness of our message are determined by both what we say and how we say it. Typography
+- ## Chapter 2. How Type Works
+    - ^^THERE ARE no rules in typography^^
+    - We have principles, best practices, and methods that work most of the time, but nothing that works all of the time.
+    - Filtering through the options is a Sisyphean task. You also have to consider the elements of composition. Things like size, spacing, color, and tone all affect the reading experience
+    - The bulk of typography, if done well, isn’t supposed to be noticed
+    - Readers may only snap to the realization of the presence of type when they struggle with understanding what it’s trying to convey. Namely: when typography fails
+    - ## Why Typography Matters
+        - It doesn’t matter how well-considered your layout is, how wonderful your website’s interactions, code, colors, imagery, or writing are. If your type is bad, the design fails
+    - ## An Embarrassment of Riches
+        - While new typefaces have the ability to respond to technological advancements, old typefaces have design equity.
+        - Verdana and Georgia remain among the most sturdy and realized workhorses for onscreen type ever made.
+    - ## Type on the Web
+        - Thankfully, all major browsers now support the CSS @font-face rule, which allows websites to link to font files like any other asset.
+        - For more on that, check out Paul Irish’s article “Bulletproof @font-face Syntax” ([http://bkaprt.com/owt/4/](http://bkaprt.com/owt/4/)
+    - made huge strides in a short amount of time. We can now reliably use fonts outside of the handful of typefaces that are pre-installed on our readers’ devices
+    - But as web practitioners, we not only need to be conversant in the technical side of designing for the web, but we also need to understand the visual nature of typefaces
+    - ## The Language of Type
+        - Being fluent in typography makes you part of the design process, and that’s exactly where you want to be
+        - To develop your gut instinct for typography, start by learning the language of type.
+    - ## Font Versus Typeface
+        - Typeface is the name for the design in full, whether it’s a style or family of styles. For example, Helvetica is a typeface. Font refers to the format or storage mechanism for that design. Helvetica.ttf is a font
+        - a typeface is to a font as a song is to an mp3 ([http://bkaprt.com/owt/5/](http://bkaprt.com/owt/5/)).
+    - ## Classifications
+        - All typefaces fall into some sort of classification
+        - We struggle with these systems, because typefaces are thoroughly dynamic works diverse in visual structure, intent, influences, and historical context
+        - When thinking about typefaces for use in my designs, I mentally sort them into a few common groups: serif, sans serif, slab serif, script, monospace, and decorative (which is mostly made up of anything that doesn’t fit into those other categories
+        - Two given typefaces may belong to the same class but spark very different responses, depending on their intended use or when they were made.
+        - For example, decorative isn’t just a synonym for fancy type; it describes the context for using a typeface. A decorative typeface could have serifs or be a script or monospaced, but its overriding characteristics likely prevent it from everyday use
+        - If I’m designing a website that has articles, I’m generally looking at typefaces for running text
+        - Most of what I’m after will fall in the serif and sans serif classifications, as typefaces in other groupings will be too distracting for long stretches of text.
+        - Along those lines, if I’m looking for a typeface to set my new tagline across the top of a website, I may look at more decorative or distinct typefaces first.
+        - Beyond the traditional classifications, there is another category of typefaces: icon fonts. Icon fonts have characters filled with symbols other than letters
+        - n’ roll can make you a better musician: they allow you to sort typefaces across criteria and find aesthetic and mental connections to help communicate your design.
+    - ## Physical Traits
+        - The sum of these choices influences the features we judge when choosing a typeface: legibility, flexibility, contrast, and more
+    - ## Em Box
+        - Despite the name, em does not refer to the size of the capital letter M in a given font. Rather, an em is a relative unit of measurement that’s equal to your font size
+        - the em is merely the available height of each character’s canvas, and no rules state how much space a character can take up inside that box.
+        - The effect is a FOUT, or flash of unstyled text
+    - ## Typeface Contrast
+        - The contrast of a typeface refers to the differences in the thick and thin strokes of its characters
+        - Higher-contrast typefaces tend to be useful in small bursts or headlines, because the extreme variation in stroke width is burdensome in long text
+        - Our eyes are attracted to the exceptions—the stuff that looks different from everything else. Contrast
+        - Most typefaces intended for long-form text have medium to low contrast, which creates less interplay between the individual letters and words
+        - On the other hand, too little contrast in stroke or distinction between letterforms, as in the case of Helvetica, can be unsuitable for long stretches of text because the letterforms appear too uniform, reducing legibility
+    - ## Weights and Styles
+        - Many typeface families have at least four basic styles: regular (sometimes called roman or book), italic, bold, and bold italic
+        - Posture refers to an alteration of the letter’s skeleton, like the difference between regular and italic. However
+        - On the web, we commonly employ numerical CSS font-weight values. These currently range from 100 to 900—nine in total, each on the whole hundred value—with the lightest weight at 100 and the heaviest at 900.
+        - Flexibility is often one of my biggest considerations when choosing a typeface
+        - If I can create a good level of contrast by using different styles within a typeface family, it accomplishes a few important things. For one, it lets me stay stylistically consistent within my design. I can use different styles for headlines, subheads, and maybe even text, and they will all share a common background throughout the piece. That flexibility helps me establish a clear hierarchy while keeping the visual language simple.
+        - I find that the more typefaces I use in a design, the weaker the design becomes.
+        - Many people say not to use more than one or two typefaces at the most. Though obviously not a rule, this can be a good guideline as it puts some constraints on your visual palette (
+        - When text is set to bold or italic in CSS, the browser will first look for the appropriate font to render it. If that font is absent, the browser will try to formulate an italic or bold by artificially skewing or beefing up the letterforms from the existing font.
+        - We call these pseudo or faux italics and bolds, and they’re the typographic equivalent of mistakenly tucking your shirt into your underwear
+        - Now look at the faux italic. It’s literally a skewed version of the normal style. Some of the letters’ thinner bits look squished, and the counters appear misshapen
+        - Moving to the faux bold, the letters are a bit blobby, like someone spilled water on paper and the ink started to bleed.
+    - ## X-Height
+        - A typeface’s x-height refers to the height of its lowercase letters from the baseline
+        - When considering text faces, a high x-height is usually ideal; more space for the letterform means more information to help the reader. This is true of typefaces for print or web, but is of utmost importance where interfaces or wayfinding are a concern.
+        - As x-height increases, a typeface’s letters can be confused.
+        - Just as important to readability are the spaces and openings inside the letters: counters and apertures. Counters are a letter’s interior space. Counters can be enclosed, like the middle of the letter o, or open, like the middle of the letter c. An aperture is the actual opening of the counter, like the space between the ends of the letter c.
+        - The easiest way to see if a typeface has the right mixture of attributes is to set some text and give it a read. If you get tripped up on some letters and letter combinations, it’s probably best to keep looking
+    - ## Numbers, Punctuation, and Special Characters
+        - Strive to use typefaces that support numbers, correct punctuation, and special characters, especially if you’re presenting your text in a variety of languages
+        - Uppercase numerals (sometimes also called lining or titling figures) have the same height and contrast as capital letters. Lowercase numerals, also known as text or old style figures, are designed for running text. Lowercase numerals act like lowercase letters, some with ascenders (6, 8), some with descenders (3, 4, 5, 7, 9), and some that reside at x-height (0, 1, 2), allowing them to blend in with text and cause less visual disruption than uppercase numerals.
+        - a typeface that has multiple numeral sets, you can access them with specific CSS rules for OpenType. Browser support for OpenType features is still gaining traction, but you can find a good browser-support matrix at [CanIUse.com](http://caniuse.com/)
+        - Tabular figures align vertically, making them easier to scan.
+        - For punctuation, make sure your fonts contain the basic forms you’ll need for sentences (period, question mark, etc.), a set of dashes (hyphen, en dash, and em dash), and proper quotation marks (not straight quotes
+        - Proper quotation marks are often overlooked, but it’s important to know the difference. Curly quotes, usually called smart quotes, commonly look like filled-in 6s and 9s. Straight quotes, often called dumb quotes, are usually straight and vertical (FIG 3.19). Curly quotes are the correct punctuation for quoted text and dialogue. Dumb quotes are called as such because they are not only incorrect, but are also an instant sign of sloppy typography.
+        - Punctuation is a system. That’s why proper quotation marks and apostrophes look like they’re part of the same family as commas, periods, colons, semicolons, and more, whereas straight quotes don’t
+        - I made a single-serving site called Smart Quotes for Smart People to show how easy it can be ([http://bkaprt.com/owt/15/](http://bkaprt.com/owt/15/)). For more info on quotes and dashes, check out Jessica Hische’s excellent site Quotes and Accents ([http://bkaprt.com/owt/16/](http://bkaprt.com/owt/16/)).
+        - the realm of quotation marks: primes. Primes look like italicized straight quotes and signify things like feet and inches, minutes and seconds, and coordinates on a map. Primes are not the same as dumb quotes; they’re a different set of punctuation marks altogether
+        - It’s not uncommon for free fonts to be incomplete or have mismatching punctuation. Most decent typefaces have the whole lot, but it’s always a good idea to check before licensing a font or deciding to use a typeface
+    - ## Small Caps and Ligatures
+        - Small caps are capital letters that are slightly taller than the x-height and often used for acronyms
+        - If you were to simply shrink down normal caps, the strokes would feel thin compared to the regular text, thus creating undue contrast
+        - Using small caps on the web usually means specifying a separate font file with just the small caps.
+        - A ligature combines two or more characters to create a joined letterform. The most common ligatures solve for letterforms that unappealingly crash into each other
+        - The CSS3 Fonts Module has several options for standard ligatures (such as ff, fi, ffi) and discretionary ligatures (st, Th), as well as options for small caps, text figures, and swashes
+    - ## Language Sets
+        - When a browser needs to render a word and your font doesn’t support the needed characters, the browser will cascade its way through your CSS font stack until it reaches a font that does, or worse, it will display the notdef character: an empty rectangle
+    - ## Optical Sizes
+        - For instance, an optical size intended for headlines was cut thinner than one for text, because it would be uncomfortably heavy if you just scaled the outlines up
+        - Type families like Adobe’s Garamond Premier Pro are designed with alternate sizes like caption, text, and display (mostly meant for headlines) for this very purpose. Typefaces with optical sizes can be especially useful for screen typography, because you can pick tailored fonts for the size and output you wish to use
+        - Captions can get pretty small in print at around 6–8 points, but on the web, type that small would likely be illegible. On screen, captions work better at around 12 pixels, depending on the typeface you use and the environment it’s rendered in
+        - Font Bureau has released their Reading Edge series ([http://bkaprt.com/owt/19/](http://bkaprt.com/owt/19/)), a collection of typefaces “designed to function reliably at 9px–18px.”
+    - ## Historical Context
+        - Even if a typeface is reminiscent of a time and place, looks can deceive. Remakes and revivals are common, like Hollywood movies—though revisiting typefaces usually yields far more pleasing results
+        - Typography is inextricably tied to time
+        - As you get more familiar with typefaces, you may start to notice variations or editions of the same typeface
+        - Because the original metal matrices or printings for these typefaces are often outside the realm of copyright, designers can revisit past works and digitally reinterpret them. As of this writing, more than a dozen versions of Garamond are out there
+        - Do you judge a typeface based on how closely it adheres to the source material or in the context of its own design? Because I’m often more concerned with how well a typeface will perform than with its historical correctness, I prefer the latter
+        - Then we have Sabon (named for Jacques Sabon, a student of Claude Garamond), a Garamond revival that sought to modernize the classic design. Created by typographer Jan Tschichold, it was prominently featured in the design system that made Penguin Books famous. Sabon is a beautiful, flexible reinterpretation of Garamond
+    - ## Finding Alternatives
+        - The rewards of typographic knowledge are cumulative. If you already know a typeface well, you can build on that knowledge to find other typefaces
+        - Now, Helvetica is about as pervasive as a typeface gets; it’s used on everything from logos to public signage around the globe
+        - I feel the opposite. Helvetica is technically a beautiful face, but it’s also so overused that I have trouble feeling any response when I see it. To me Helvetica has become a generic default. People use it as a safe choice rather than face the fear of making a bad choice. They’d rather say nothing than risk saying the wrong thing
+        - Used widely across the internet, Georgia is a modern workhorse for onscreen type.
+        - Take Chaparral (a personal favorite). It has some of the same traits that make Georgia so legible, like its x-height and openness, but with softer angles that evoke a more restrained elegance
+        - Lastly, Droid Serif takes Georgia’s angularity a step further as a pointier, boxier cousin, almost as if it’s sucking in a small paunch to impress someone
+    - ## Technical Considerations
+        - Every typeface or typeface family consists of one or more font files. Fonts are individual files that contain the outlines of all the characters (i.e., the letters’ actual shapes as vectors) and information from the designer to space and render the type
+        - OpenType fonts work for Mac and Windows systems, while older fonts and formats may only support one or the other. As a major bonus, OpenType fonts can support more characters, more languages, and special features, like small caps and ligatures, all in one file
+        - In 2009, the Web Open Font Format (.woff) was introduced to promote a single format that could work across all browsers. WOFF is essentially a wrapper that contains a TrueType or OpenType font, but significantly compresses the files for website visitors. These advantages make WOFF the best choice when it’s available, and browser support is only increasing
+        - All non-system web fonts are assets that need to download from a server for a page to render. While the trend is for file sizes to get smaller and connections to grow faster, you should keep the number of fonts you use to a minimum to keep your page weight as low as possible. Limiting your palette will help you maintain a coherent visual system and make sure your page load time is snappy.
+        - Some browsers display content before all assets are loaded, while others wait until they have every asset to render the page. In the first case, a visitor will experience FOUT and briefly see content in a default system font before it snaps into the web font after the file loads
+        - A great way to deal with FOUT is by using Web Font Loader, a framework codeveloped by the engineers at Typekit and Google
+        - Even if you’re using Web Font Loader, you should still tailor your font stack to use the best fallback fonts for the situation. Fallback fonts are rendered when your web fonts fail to load, or are still loading
+        - Fallback fonts are the system fonts found on a visitor’s device. Depending on the platform and operating system they’re using, these fonts can vary. Code-wise, it’s the same approach we’ve been using with CSS stacks for years, but with our web font added to the front, like so: font-family: chaparral-pro, Georgia, "Times New » Roman", Times, serif;
+        - Some designers consider FOUT more of a feature than a bug, and I tend to agree
+        - The thing I try to avoid most in my designs is not FOUT but a jarring shift in the layout when a web font finishes loading. This shift is usually due to sizing discrepancies between your layout in system fonts and your chosen web font
+        - Because of these potential drawbacks, I prefer to approach web typography using system fonts (my fallback fonts) and save web fonts as a progressive visual enhancement partnered with Web Font Loader
+        - With a little extra effort, you can use Web Font Loader to load your fonts asynchronously, or separately from the rest of the page and its assets. This means that if the files are large or slow to transfer, they won’t block the page from displaying. Sean
+        - Browsers and operating systems use a variety of technologies to display, or render, a font on a web page. As a result, a font can appear different in different situations. In some cases, a font that looks crisp and clear in one browser will look pixelated and ugly in another
+        - The two latest and best rendering engines are Core Text (used by Mac OS X and present on all iOS devices) and DirectWrite (used on the latest version of Windows). Both render text very well, but they do so very differently
+        - For more information on rendering type on the web, check out Tim Brown’s articles, “CSS Properties That Affect Type Rendering” ([http://bkaprt.com/owt/26/](http://bkaprt.com/owt/26/)) and “Type Rendering on the Web” ([http://bkaprt.com/owt/27/](http://bkaprt.com/owt/27/)
+- ## Chapter 4. Choosing and Pairing Typefaces
+    - ONCE YOU START down the road of looking at type as a tool and conveyance for communication, you turn into a new person: someone who has opinions about type
+    - “What’s a good font to use?” It’s a difficult question, because typefaces don’t exist in a vacuum. If you decided to make a painting, you probably wouldn’t start by asking an artist friend, “What color should I use?”
+    - Choosing typefaces relies on weighing the context of what you’re designing against your technical requirements, typographic knowledge, and gut instinct
+    - ## Know Your Context
+        - Put simply, type for a moment is content that someone should only need a moment to read. This includes small interface copy (like a button or login link), brief asides to an article, and display type for a headline or large marketing copy
+        - The typeface you start with should suit a purpose. For navigation or interface text, I look for typefaces that hold up well at small sizes and aren’t fussy with extra style. More times than not, I narrow it down to a simple sans serif.
+        - A headline with a lot of personality immediately sets a mood, which can be a great way to draw a reader in.
+        - Type to live with is text we spend a lot more time with, usually long-form text like an article or book.
+        - Typefaces for longer reading should give a page an even texture. The texture of flowing text is the sum of the typeface’s color (the general combinations of lights and darks in and around letters), the actual color of the text and its contrast with the background, and the size of the setting. You can see what I mean by blurring your eyes while looking at a chunk of text. If you see repeating patterns of weird letterforms that keep sticking out to you, the typeface may not be right
+        - the general guideline is that a reader shouldn’t notice the type
+        - Because when a reader notices the type, they’re taken out of the act of reading and are instead trying to decode why something else is calling attention to itself
+        - Warde urges designers to strive for clear presentation of their messages, allowing the contents to speak for themselves, and for designs to be a transparent window to those messages
+        - When searching for good options for long-form text, we need to recognize that we’re asking someone to live with this typeface for an extended period of time
+        - For instance, Bree is a beautiful typeface, but it also boasts a particular personality that I may or may not want in running text (FIG 4.5). Look at how some of the descenders (like the g or y) have a closed loop.
+        - Calluna is simple, with just enough personality to make for an interesting text face. By contrast, Bree may have too much personality, making it potentially distracting for extended reading
+        - In general, I’ve found it’s best to look for typefaces that have a touch of personality (and I mean ever so little) and fulfill a few requirements
+        - runs the risk of overwhelming the text’s message. When a typeface is decorative like a script or has embellishments like swashes, our eye is drawn to those exceptions. The smallest hint of idiosyncrasy—like extra contrast to the strokes or deeper descenders—adds some life to a text, especially since 99 percent of the type in the world seems to be set in Helvetica
+        - I’ve found myself looking at three main things when evaluating a typeface for extended reading: x-height, contrast, and letterforms.
+        - The lowercase letters should be tall enough to not feel dwarfed by the uppercase letters and create a nice balance at the page level
+        - If the texture of the text looks like it favors the capitals too much, the x-height may be too small. Again, we’re looking for features that will give us an even texture.
+        - A little contrast is okay, but too much can be, well, too much. In running text, a high-contrast typeface can really throw off the balance
+        - reading is easiest when we provide a smooth texture without too much contrast
+        - Recognizable and distinct letterforms
+        - I shouldn’t have to stop to discern if a capital I is a lowercase l or number 1 (
+        - Every moment I spend decoding text is a moment wasted. This isn’t usually a problem in running text, where a reader has more context to help distinguish words. But it becomes paramount when a reader has fewer contextual cues, like a headline or a single word from an interface’s navigation, or instances where numbers are mixed, like code, license plates, and serial numbers
+        - I keep these points in mind, because they can trip up readers. They’re easy to temper once you know what to look for, but equally easy to get wrong if you don’t take them into consideration when picking a typeface
+    - ## Methods for Choosing Typefaces
+        - One quick tip before we start: don’t get attached. While you may have your list of the usual suspects, each project carries its own needs and goals. Be ready to abandon your favorite typeface.
+        - If it doesn’t serve your design, it doesn’t serve the reader.
+        - One method I use is word association. Rather than scrolling endlessly through pages of typefaces and getting tangled up thinking, “Is this the right one?”, come at it from a different angle. Ask yourself: what do I want my design to convey? Think of words that describe the feelings or moods you’d like to impart. Perhaps you’re designing a website for a day care. You may think of descriptive words like playful, innocent, colorful, handmade, and more.
+        - With these adjectives in hand, I can look for typefaces that suggest the same thing or help me portray those traits (FIG 4.10). For instance, to chase down the theme of stable, I may look at typefaces that run thick and strong. Blackoak is wide and chunky and looks like it could support a skyscraper
+        - Most important, word associations give you permission to delay answering that nebulous question, “Which typeface is right for my company?”—which can spiral into thoughts about what your company does, who works there, whom you work for
+        - The most useful thing you can do when deciding whether to use a typeface is to try it out in a situation as close to the real thing as possible. If you’re making a website, this means testing that typeface in context on an actual web page
+        - stick out in running text. In this regard, typefaces sometimes feel like “the clothes that words wear
+        - Typefaces need to be tried and tested in a real setting.
+        - You can do this so quickly you have no reason not to. Simply drop blocks of the same text into an HTML document, set each paragraph to a different typeface or size, and open in a browser. Don’t forget that typefaces can vary in appearance from one browser to another, so test a range of browsers and devices. Your typefaces should hold up across myriad environments
+        - The web service Typecast ([http://bkaprt.com/owt/35/](http://bkaprt.com/owt/35/)) lets you test web fonts from a variety of foundries right in your browser, so you can play with the size and setting to your heart’s content
+        - Once you review some typefaces in context, run through your list of aesthetic and technical requirements: • Does the typeface have the right feel? • Is it good for extended reading? • Do the characters in your headline or company name look weird? • Does the typeface family have additional styles you can use to flesh out your type palette?
+        - we also need to ensure our choices are appropriate for our aesthetic context
+        - you may be right. As I said, there are no right answers, just different degrees of appropriateness
+        - a typeface’s background information reflects the tremendous amount of thought and research poured into the work. Designers will often outline why they created a typeface, where they drew their inspiration from, what they intended the type to be used for, and more
+        - Fonts In Use ([http://bkaprt.com/owt/40/](http://bkaprt.com/owt/40/)), which catalogs imagery of typefaces in real settings. The examples are well documented and tagged so you can quickly find work featuring a specific typeface
+        - Type choices like these limit you, because you can’t escape the strong associations that come with them
+        - Let the typography—all of the ways you make that typeface be the voice of the message—do the talking
+        - A typical roman (meaning upright) face can take a type designer at least a year or two to complete.
+        - Depending on the design and designer, the size of the typeface family, the history and research involved, and the ebb and flow of the creative process, it’s not unheard of for a typeface family to take five or more years to create. See Tal Leming, who spent over six years making his sans serif family Balto
+        - In my experience, free fonts are a mixed bag and tend to suffer from common failings: • Incomplete character sets (missing lowercase characters, or worse, punctuation) • Less technical or aesthetic cohesion (the typeface feels uneven) • A chance of being highly derivative of another font (sometimes due to an unaware or eager designer with good intentions)
+        - We get paid for our work, and they get paid for their work. It’s that simple.
+        - keep lists of typefaces that I know well, or that I’d like to use, to give myself a head start when I sit down to work on a new project. Some are typefaces that’ve carried past projects; others I’ve come across and noted for future use when an opportunity pops up.
+        - My typeface shortlist changes every so often as various choices fall in and out of favor, or as I get to know others better, but I gravitate toward simple and sturdy sans serifs and book serifs
+            - If you see a typeface you want to learn about, you can use a bookmarklet like Fount ([http://bkaprt.com/owt/43/](http://bkaprt.com/owt/43/)) to reveal its name. You can also upload pictures to WhatTheFont ([http://bkaprt.com/owt/44/](http://bkaprt.com/owt/44/)) to find matches in MyFonts’ extensive type database. Similarly, you can find typefaces with David Johnson-Davies’s Identifont ([http://bkaprt.com/owt/45/](http://bkaprt.com/owt/45/)) by answering questions about the visual characteristics of different letters.
+            - I tried similar combinations of typefaces they used to better understand how the typefaces functioned. Work from these and other designers served as a treasure map to typographic gold. Finding designers you like and adopting their type palettes can
+            - See a longer list of my favorites in the Resources in the back of this book (Check)
+    - ## Methods for Pairing
+        - Pairing typefaces gives our designs more variety, and it makes it much easier to create hierarchy and contrast, so we can group similar types of information (e.g., headings, sidebars) under a common visual system and guide the reader around our websites
+        - One or two typefaces are enough for most designs. When in doubt, a good rule of thumb is to pair a serif and a sans serif
+        - This provides you with what are likely the two most flexible kinds of typefaces, and nearly guarantees you have sufficient variation between the two as they’re inherently different
+        - When it comes to choosing and pairing typefaces, I keep two things in mind: distinction and harmony.
+        - balanced, you need to choose typefaces that don’t compete too much with each other, but aren’t so similar as to be indistinguishable. For instance, I would avoid pairing two
+        - It’s a tricky balance to pinpoint something that’s different and complementary, but we can achieve that by flexing what we’ve learned about the structure of letterforms, like stroke contrast and x-height
+        - In general, it can be difficult to pair typefaces that share a lot of traits. Don’t be too subtle. For instance, I usually avoid pairing two sans serifs or pairing two serifs together, because of the lack of distinction. Without enough contrast, the hierarchy is less clear, and we want to reinforce our design system whenever possible. Using typefaces that are too similar muddies that up.
+        - My personal website uses only two typefaces, but still feels like it uses a rich typographic palette by playing with size, spacing, and color ([http://bkaprt.com/owt/47/](http://bkaprt.com/owt/47/)
+        - Typographic harmony comes from a combination of things: size, hierarchy, layout, color, juxtaposition, and anything else that affects the visual presentation of information.
+        - Complementary forms strengthen connections between typefaces and, in turn, your design
+        - Harmony is based on both visual structure and gut instinct, but if you’re stuck, one reliable method is to work with typefaces designed with systems in mind, like superfamilies. These systems commonly have a serif and sans serif counterpart meant to be used together.
+        - As another approach, opt for typefaces that share the same maker.
+        - You can simplify things further by staying within a family that has a variety of styles. For instance, a large family like Benton Modern gives you lots of options for establishing hierarchy by varying the weights or widths of different elements
+        - The easiest way to tackle combining typefaces is to lock in one typeface choice and build on it. Remember how we pulled Helvetica apart to see how and why it looks the way it does? You can apply that same exercise to any typeface to find another one that would make a good companion.
+        - Proxima Nova feels modern and friendly set large as headlines, and FF Meta Serif adds a wonderful bookish quality to the text.
+    - ## Find Your Own Classics
+        - typefaces. It pays to be a design sponge in the world, so take note of what works and keep refining your visual palette. I pore over editorial design magazines and newspapers, because I love the way text looks in long form. I also love digging into well-designed books that deeply consider the reading experience;
+        - o be an informed student of typography, you need to train your brain to look for good typography everywhere. This is actually easier than it sounds. Once you’re aware of type, you can’t help but notice the good and (unfortunately) the awful.
+- ## Chapter 5. Typographic Systems
+    - TYPOGRAPHY IS an art of finding and shaping relationships between elements, from largest to smallest and smallest to largest
+    - Like any good system, typography provides a method to accomplish a task. A typographic system establishes hierarchy, meaning it helps us prioritize content based on individual elements and relationships between them. It also helps our readers easily scan chunks of information and understand what they’re looking at.
+    - When done right, a typographic system feels intuitive, like an unspoken set of instructions.
+    - ## Hierarchy and Contrast
+        - hierarchy may seem like a simple visual translation in which the most important items are the biggest and the least important are the smallest, but it’s far more nuanced than that
+        - The most important things don’t always have to be the largest; they just need to be more distinguished than other elements. In other words, they need more contrast
+        - Contrast is, in my humble opinion, the most crucial tenet of graphic design
+        - The best way to create a hierarchical typographic system is to first audit your website’s basic elements. You can break down these elements in a variety of ways.
+        - Sometimes it’s based on what the elements are semantically, as with headlines like h1 and h2 and so on; other times it’s based on what those elements need to do, as in the case of very small type like captions or specialized text like block quotes. Understanding the subtle distinctions helps you make your type more readable and efficient—and ensures that your type suits an element’s purpose.
+        - One more note: since hierarchy is a system, be sure to keep it consistent
+    - ## Paragraphs
+        - Typefaces with less flourish and a uniform shape make for pleasing reading experiences, as they fade into the background and let the text take center stage
+        - FIG 5.1 shows a fine start for paragraph styling. We have a good type size, a simple typeface choice of Chaparral, sufficient contrast with the background color, and decent spacing between the lines. Where we eventually end up with our paragraph style depends on other factors like intended use, device size, alignment, and more. We’ll look at those considerations in Chapter 6
+        - The reading distance and type sizes from a desktop monitor are roughly comparable to those of a magazine held at arm’s length.
+        - I tend to make my base type size 16 or 18 pixels, or 1–1.2 ems.
+        - In general, I would rather err on the side of making something too large than risk it being too small
+        - Conventional wisdom is to aim for a 45–75 character measure (the length of a line of text) on average in your running text, depending on the particular font, size, and setting.
+        - If you do need to use a longer measure, you’ll want to balance it out by increasing the amount of space between lines (line-height).
+        - Similarly, if you’re on the shorter end of the spectrum, you can get away with less line-height, since the distance from line end to line beginning is a shorter trip
+        - Line spacing that’s too tight makes text feel dense and congested, while line spacing that’s too loose makes the lines feel like disconnected elements
+        - Awareness of line-height is especially important when dealing with responsive websites.
+        - A true ideal line-height doesn’t exist, because every typeface is different.
+        - s this a wide or decorative typeface? You may need more space between lines to let the details breathe. Is this a narrow text column, as you might see in hanging captions in an article’s margins? You could use a smaller type size and keep the line-height tighter than the article text next to the caption. By observing these factors, you can judge what a particular setting requires.
+        - A good starting point with line-height is about 1.2–1.8. It’s best to omit units for line-height, as its values can get messy by dint of CSS’s cascading properties (see CSS Tricks’ Almanac for specifics ([http://bkaprt.com/owt/50/](http://bkaprt.com/owt/50/)).
+        - Do letter ascenders and descenders crash into one another or run a little too close between lines? If so, more line-height is needed. Are the spaces between the lines more prominent than the lines themselves? If so, try reducing the line-height. When you find an appropriate line-height, the text will seem to fall into a natural rhythm, feeling neither too far apart nor too close.
+        - There are several ways to denote a new paragraph, from outdented first lines to actual paragraph marks (¶), called pilcrows.
+        - Writing on the web tends to be more “chunked,” where each paragraph holds a complete thought—as opposed to something like fiction, where a full line break may disrupt dialogue—so paragraphs can stand farther apart. As a bonus, these bite-sized chunks prove useful for skimming content.
+        - Headlines are the attention grabbers.
+        - A small headline can flatten your hierarchy and stunt one of your visual system’s strongest tools. But a sturdy headline welcomes readers and guides them through the text.
+        - A headline is typically set at some ratio larger than the body text. I usually work in simple math, doubling or tripling the body text size to find a potential headline size
+        - Once you have your base headline size, you can establish relationships between headings and subheadings. A reader should be able to distinguish, even at a glance, the role of one element from another. The visual prominence of an element may not always reflect its semantic value, but key elements will often have greater visual weight than other page content.
+        - A slightly condensed face can work well in these situations, because you can fit more characters on each line
+        - While big type is a kind of headline, it may not be atop an article. We often see these on homepages and splash pages for marketing sites
+        - The big type complements the large screenshot through its proximity and color, creating a unified visual. Snappy headlines like these are the hallmarks of marketing design
+        - than letting a browser handle the reflow. Some good ways to approach that level of detail are the jQuery plugins FitText and Lettering by Paravel or Font-to-Width by Nick Sherman and Chris Lewis.
+        - For more on this, check out Chris Coyier’s article “Viewport Sized Typography” ([http://bkaprt.com/owt/56/](http://bkaprt.com/owt/56/)
+        - ## Small Type
+        - Small type is comprised of an unassuming variety of supporting elements. Interface, which we’ll cover shortly, is a common kind of small type, but article-specific categories like captions, footnotes, and asides are also important to distinguish.
+        - mall type serves a specific purpose. It marks a visual contrast and shift in tone—a separate point of information from a text’s main stream.
+        - something better suited to small sizes. Picking a separate caption typeface gives you the added ability to visually signal a change in voice—as when a side note comes from an editor instead of the author
+        - One last note on small type: if we’re talking about more than a few lines, small type may not be the way to go. Prolonged reading of small text gets cumbersome really fast. For quick asides and captions, though, it’s perfect
+    - ## Other Notable Types
+        - outside the norm pop up from time to time. The biggest thing to remember with any other element is to evaluate its purpose, its importance, and where it appears in context
+        - In the case of a blockquote, some small-text principles apply (though it’s less about size). A blockquote is a bit of text quoted outside of an article’s main text. It’s common to set a blockquote apart visually from the normal text to mark this change in voice, and this can be a good opportunity to switch from a serif to a sans serif (or vice versa, depending on your body typeface).
+        - In print, quotes are typically distinguished with indented text and italics, but on the web, the patterns can be more stylized.
+        - A stylistic pull quote treatment grabs a skimming reader’s attention (
+        - there, but if you’re doing lots of quoting, a more subtle style (as we often see in print) is probably a better choice to keep the article text and the quotes from fighting each other
+        - the most common blockquote style, which makes the type a little smaller than the base type and lighter in color. This works well, because it’s a simple visual change that marks a shift in voice while still feeling tied to the rest of the text
+    - ## Interface
+        - Important UI elements like navigation may need more visual prominence than less frequently accessed elements like a logout button. That isn’t to say they aren’t both important, but we can visually rank these elements based on their use
+        - Because of how quickly a header can become crowded with options (especially after signing into a site where more options are revealed), I favor sans serif typefaces for UI.
+        - ## Putting It All Together
+        - That’s fine for text, but what about navigational elements, images, and other kinds of content that need to fit in? Always think about your intent—the things you want a visitor to do—and use that to influence your visual styling
+        - If you want someone to read an article, focus your efforts on styling the text. Make sure it’s nice and readable, with a clear entry point—like a big, appealing headline that shepherds readers into the article
+        - If you want someone to watch a video or register for an account, focus on making those elements shine. They don’t need to be the biggest items on the page, but they should have enough heft and visual prominence through placement and color to draw attention.
+        - If we bombarded the page with more images and an army of big headlines, each would bear the same weight and cancel out any contrast. Without contrast, we don’t have hierarchy, and without hierarchy, the typography feels indistinguishable and our readers are left without a map.
+        - All of typography is based upon a reflexive relationship: the small things inform the big things, and the big things inform the small things. The sum of this give and take means the difference between beautiful and forgettable.
+    - ## Known Unknowns
+        - If we all sat down and read the same printed book, we’d likely experience it under similar constraints. We’d be limited to the same page size, type, and layout
+        - Compare that with any website. If we were all to visit the same site, what we each see would be determined by a number of cascading factors, like our chosen device (desktop, mobile, tablet, etc.), the physical screen size, the screen resolution, our chosen browser, the size of the browser window, the browser settings, and more
+        - We can tailor our content to adapt to virtually any screen size and to look pretty good while doing so. Sure, it’s more difficult to achieve the set precision you get with designing for a physical book’s single size, but we gain the advantage of having a design that can potentially be viewed by almost anyone, anywhere, on anything.
+        - ## Responsive Typography
+        - As your site responds to various displays and devices, your type needs to maintain its integrity and adapt with the layout
+        - you can use CSS media queries to specify breakpoints and tailor your container widths—and thus the widths of the lines of text inside those containers—to always be an appropriate length. The 45–75 characters per line range is still a good starting point, but you’ll need to see what that looks like in a typeface at a given size
+        - If your line lengths grow longer at larger breakpoints, your type size should increase too. Conversely, as your line lengths shorten, your type size can decrease
+        - If you’re sticking with a typical line-height of 1.5, you might nudge it down to 1.2 or 1.3 on smaller screens, as you’ll have shorter line lengths that won’t need as much breathing room.
+        - Methods like these are simple to implement but powerful, because they can govern so much of your typography’s visual presentation
+        - No matter which device someone is viewing your work on, you want to give them the best experience possible
+        - Luckily, type is like water flowing into a glass; it fills whatever container you put it in. You just have to make sure the content suits the width of the container.
+    - ## Composing the Page
+        - A grid helps you organize your content and reinforce your typographic hierarchy
+        - A grid allows you to frame your layout with purpose to align page elements and build hierarchical relationships. Put plainly, a grid is an essential building block for intentional design
+        - Most grid frameworks for the web consist of uniform vertical columns spaced evenly across a page.
+        - Hierarchical grids organize disparate kinds of flexible content (cue dramatic music: like a web page!) based on their needs to grow and shrink, rather than at regular intervals.
+        - As a bonus, a hierarchical grid easily lends itself to the stacked, one-column layouts common in responsive web design’s smaller breakpoints
+        - page is multidimensional, and we must also consider the horizontal axis. For my site, I used a column grid in addition to the hierarchical grid to organize elements across the page. For instance, the columns provide regular intervals to space elements out, but also separate different content types like columns of body text or sidebars. These divisions are especially effective for the large footer and complex articles, because they extend the design system to have more possibilities inside the hierarchical grid’s layer cake
+        - A baseline grid is a series of rows spun out of the spacing between baselines in text, or the invisible line that letters sit on. It’s a means to horizontally align all the type on the page, including captions, headlines, and running text
+        - In print, baseline grids evolved to serve two purposes: to provide a consistent rhythm to text as it cascades down a page, and, more important, to deal with the printed page’s inherent translucency
+        - The first point on vertical rhythm is debatable, at least when it comes to web design. The more variables you throw at a baseline grid, the harder it is to use
+        - So, when should you use baseline grids on the web? Perhaps the best use case is aligning columns of text that appear next to each other, as with multicolumn websites or secondary elements (e.g., pull quotes and sidebars). The baseline grid keeps a consistent rhythm vertically across the horizontal blocks. Overall, however, I’ve found baseline grids more trouble than they’re worth
+        - Factors like browser rendering, layout interpretations, image sizes, ad sizes, and general unforeseen wonkiness make employing a baseline grid pretty time intensive. You can achieve rhythm through size and spacing just as well.
+    - ## Alignment and Hyphenation
+        - Most magazine and book text is justified and makes ample use of hyphenation, as it creates pleasing shapes from the text blocks and is an efficient use of space.
+        - Both justified type and hyphenation are very potent tools in laying out type, but be sure they work well with the typefaces you use and their settings in your design
+    - ## Typographic Color
+        - Every typeface has color, and when set, it gives the overall page a color too. I’m not referring to an actual hue; I mean the gray value. T
+        - Color is created by both the letterforms themselves (some fonts may have more color if their letterforms have heavy strokes, high contrast between thicks and thins, or a larger x-height) and their settings (tight lines or letter-spacing may make a passage feel darker).
+        - You can adjust properties like line-height to tweak text’s typographic color and find an even gray that is neither too light nor too dark
+        - Make sure your typography integrates as well as possible with that experience. To do this, you may need to adjust your text’s overall color to keep things in balance with your page and site interface
+        - Finding a good balance could mean adjusting the actual hue of the text. For instance, text set as dark gray (e.g., #333) is often more comfortable to read on screen than full-black text.
+        - And other times, you may play with the line-height of paragraphs or the spacing of elements to create a harmonious lockup
+        - Whatever your method, strive for an even tone and relationship among text, images, and page so that the elements all come together to support the design’s message
+    - ## Whitespace
+        - Despite what some clients may tell you, empty space in a design isn’t space that’s waiting to be filled with content or (gasp!) banner ads. Whitespace is just as important as your company logo
+        - Similarly, good typography is as much about the space between the letters as the letters themselves
+        - If your pages are too cluttered, you’re inviting the reader to head elsewhere
+        - Margins can appear between and around elements on the page, as well as at the boundaries of your layout. They aid readability by differentiating elements from one another
+        - It’s common for books to have roomy side margins for thumb holds, but this also helps frame the content
+        - In general, I like to allot at least around 1.5–2 ems of margin around body text. Depending on the text’s size and proximity to other page elements, you may need more of a margin or be able to get away with less
+    - ## Typographic Scales and Rhythm
+        - Devising a system for sizing and spacing your typography has many advantages
+        - When it comes to sizing, most designers fall into one of two camps: those who like to eyeball their type and those who prefer to arrange a sizing scale. I’m a chronic eyeballer, but I sometimes use scales to rough out sizing relationships.
+        - Scales, often based on music signatures or ratios like the golden section (1:1.61803399), are used to create a palette of size options.
+        - In Tim Brown’s A List Apart article “More Meaningful Typography,” he argues that starting with a text size like this, and including another meaningful number from your design like a text column’s width or a large headline’s type size, creates a relevant and flexible modular scale for sizing
+        - A ratio has definite appeal: it helps rationalize and constrain the choices we make into a formula that we can apply throughout the design. Plus, it gives our design elements an underlying relationship
+        - Typefaces are unique and need to be considered uniquely in the context of their design. Typography is not always about numbers.
+        - You should always evaluate your type in context, even if it resists the pristine nature of the scale you’ve devised
+        - your readers see the text and relationships, not the math behind them, as the end result
+        - ## Conclusion
+            - With practice, you’ll find your own pathways and shortcuts without needing to use a formal process
+- ## Resources
+    - Quick tips for improving your typography 
+    - When in doubt, make it bigger. This is rarely true in design, but I’ve found it to be the case when designing for the screen. Err on the side of making your type too big rather than too small. 
+    - Create hierarchy. Type embodies what you want to say with your design, and it creates and supports your website’s structure. Use contrast, size, color, and placement to create a design system that prioritizes content to guide your readers. 
+    - Look for quality typefaces. Just as buying fresh ingredients is a good way to start preparing a meal, finding quality typefaces is the first step toward good typography. Those typefaces may not be free, but they’re often more sturdy and versatile than free options. 
+    - Limit your palette to one or two typefaces. In my experience, the more typefaces I use in a design, the weaker the design becomes. 
+    - Pair a serif and a sans serif. The inherent structural differences should present useful contrast, and you’ll likely have enough options for styling various kinds of text elements.
+    - Use proper quotation marks and apostrophes. These are easy to miss and easy to forget, especially when your content moves from a text editor to a system that stumbles over proper quotation marks or swaps them for dumb quotes. Check and double-check that you have proper quotes, especially on headlines and big type. 
+    - Embrace space. Space to read, space to breathe. The space that isn’t occupied by text and imagery is often more important than the space that is. Whitespace gives readers time to rest their eyes, reflect, and reorient themselves. 
+    - Test and test again. You can’t expect your typography to look the same everywhere, but you can make sure it’s legible and accessible. At a minimum, make sure you have a backup plan for when your fonts don’t load

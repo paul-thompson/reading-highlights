@@ -1,0 +1,40 @@
+- **Author:** [[Flavio Copes]]
+- **Tags:** #CSS #[[Book Highlights]]
+- **Source:** #MoonReader
+- ---
+- ## Box Model
+    - Every CSS element is essentially a box. Every element is a generic box.
+- ## CSS Grid
+    - CSS Grid is a fundamentally new approach to building layouts using CSS.
+    - CSS Grid is not a competitor to Flexbox. They interoperate and collaborate on complex layouts, because CSS Grid works on 2 dimensions (rows AND columns) while Flexbox works on a single dimension (rows OR columns).
+    - Unless you need to support old browsers like IE8 and IE9, there is no reason to be messing with things like: Table layouts Floats clearfix hacks display: table hacks
+    - The CSS Grid layout is activated on a container element (which can be a div or any other tag) by setting display: grid.
+    - As with flexbox, you can define some properties on the container, and some properties on each individual item in the grid.
+    - The most basic container properties are grid-template-columns and grid-template-rows.
+    - Unless specified, there is no space between the cells.
+    - Those are the properties we’ll use for that: grid-column-start grid-column-end grid-row-start grid-row-end
+    - A fraction is a unit of space.
+    - repeat() is a special function that takes a number that indicates the number of times a row/column will be repeated, and the length of each one.
+    - Specify a minimum width for a row Common use case: Have a sidebar that never collapses more than a certain amount of pixels when you resize the window.
+    - Using grid-template-areas You can define template areas to move them around in the grid
+- ## Flexbox
+    - Compared to CSS Grid (which is bi-dimensional), flexbox is a one-dimensional layout model.
+    - The main goal of flexbox is to allow items to fill the whole space offered by their container, depending on some rules you set.
+    - A flexbox layout is applied to a container
+    - the content inside the container will be aligned using flexbox.
+    - Some flexbox properties apply to the container, which sets the general rules for its items. They are flex-direction justify-content align-items flex-wrap flex-flow
+    - Change the horizontal alignment justify-content has 5 possible values: flex-start: align to the left side of the container. flex-end: align to the right side of the container. center: align at the center of the container. space-between: display with equal spacing between them. space-around: display with equal spacing around them
+    - By default items in a flexbox container are kept on a single line, shrinking them to fit in the container.
+    - To force the items to spread across multiple lines, use flex-wrap: wrap.
+    - A shorthand property called flex-flow allows you to specify flex-direction and flex-wrap in a single line,
+    - Single items can have a certain amount of independence and flexibility, and you can alter their appearance
+    - using order on each separate item.
+    - An item can choose to override the container align-items setting, using align-self,
+    - flex-grow The defaut for any item is 0. If all items are defined as 1 and one is defined as 2, the bigger element will take the space of two “1” items.
+    - flex-shrink The defaut for any item is 1.
+    - If set to auto, it sizes an item according to its width or height, and adds extra space based on the flex-grow property.
+    - flex This property combines the above 3 properties: flex-grow flex-shrink [[flex-basis]] and provides a shorthand syntax: flex: 0 1 auto
+- ## Tables
+    - Today with Grid and Flexbox we can move tables back to the job they were intended to do: styling tables.
+- ## Centering
+    - Flexbox is supported by browsers since years, IE10 included.
