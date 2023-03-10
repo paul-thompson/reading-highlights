@@ -128,3 +128,61 @@
    
 - editing is just as important as writing, and you can fine-tune the balance of your text at that stage. 
    
+- the same words can mean different things to different people at different times, or in different situations.[8] 
+   
+- Although 
+   
+- Knowledge gaps are the reader’s unsolved problems and unanswered questions. 
+   
+- People learn best when they already know something about a subject, and they want to expand their knowledge. 
+   
+- To show the reader that your message is relevant to them, you could choose a title that speaks very directly to the question they have in their minds 
+   
+- Hidden knowledge 
+   
+- Hidden knowledge includes things the reader understands, yet isn’t aware of. 
+   
+- So if you want to talk about complete unknowns, you need to give the reader a frame of reference first. 
+   
+- Conscious and competent 
+   
+- Another way of thinking about the reader’s knowledge is in terms of consciousness and competence. 
+   
+- Reading furnishes the mind only with materials of knowledge; it is thinking that makes what we read ours. John Locke[143] 
+   
+- There are four main styles: analytical, intuitive, functional and personal. They’re shown on the illustration. 
+   
+- In reality, learning is most successful when the style is tailored to the content, rather than the learner – no matter what they think their learning style is. 
+   
+- The analytical style: ‘Show me the proof’ 
+   
+- This appeals to the persuasive principle of authority.[146] However, it will only work if the reader accepts the source as legitimate. 
+   
+- Analysis only gets you so far, because ‘not everything that counts can be counted, and not everything that can be counted counts’, as Albert Einstein put it. 
+   
+- while some data may be convincing, adding more beyond that point probably won’t strengthen your case. 
+   
+- The intuitive style: ‘What’s the big idea?’ 
+   
+- they might want to jump straight to the conclusion, then go back to see how it was reached. 
+   
+- You can serve intuition by allowing readers to get the gist of your ideas quickly and easily. For example, you could include a mind map, an overview diagram or an executive summary that gives them the basics of your message at the start. 
+   
+- you could encourage skim-reading with running headers at the top of pages, informative headings, bold text highlighting key points in the text or pullout quotes 
+   
+- The functional style: ‘How does it work?’ 
+   
+- The functional view is all about process, logic and detail. 
+   
+- The functional style includes all types of methodical, practical writing, like instruction manuals and detailed explanations. 
+   
+- The potential downside of the functional style is that it could end up being too mundane, predictable or even pedestrian. With some subjects, your reader might respond more to something a little more elevated or inspiring, rather than a functional, ground-level trudge. 
+   
+- The personal style: ‘People matter most’ 
+   
+- To cover the personal angle, include anything that offers a human perspective: stories, testimonials, comments, reactions and reviews. 
+   
+- If you get this right, readers will be immediately engaged and drawn into your subject. 
+   
+- Combining styles 
+   

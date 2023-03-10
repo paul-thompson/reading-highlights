@@ -15,3 +15,7 @@
    
 - normal 
    
+- Sequences of white space are . Newline characters in the source are handled the same as other white space. Lines are broken as necessary to fill line boxes. 
+   
+- nowrap 
+   

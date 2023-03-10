@@ -5,7 +5,7 @@
 **URL:** https://zapier.com/blog/zettelkasten-method/  
 **Source:** #articles #instapaper #readwise
 
-- pioneering a productivity system he called Zettelkasten—German for "slip box." 
+- pioneering a productivity system he called [[zettelkasten]]—German for "slip box." 
    
 - The Zettelkasten 
    

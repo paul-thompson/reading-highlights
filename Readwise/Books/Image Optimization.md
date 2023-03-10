@@ -202,3 +202,19 @@
    
 - rendering of larger images causes a significant blip in performance not only due to the higher consumption of memory and processing power but also because of the way they are handled by browsers. 
    
+- Modern browsers now set the default aspect ratio of images based on an image’s width and height attributes, 
+   
+- JPEGs are best suited to photographs or images with a number of color regions. JPEG is a lossy compression algorithm that discards information to save space. 
+   
+- When baseline JPEGs load on slow or spotty connections, users first see the top of the image with more being revealed as the image loads. 
+   
+- Progressive JPEGs divide the image into a number of scans. The first scan shows the image in a blurry or low-quality setting and subsequent scans improve image quality. 
+   
+- The ability for PJPEGs to offer low-resolution “previews” of an image as it loads improves perceived performance 
+   
+- Modern JPEG encoders (e.g. libjpeg-turbo17, MozJPEG, etc.) take advantage of PJPEG’s flexibility to pack data better. 
+   
+- Twitter.com ships progressive JPEGs22 with a baseline quality of 85%. 
+   
+- Since the color information is stored separately in the palette, reducing the number of colors in your PNG-8 files makes a noticeable impact on file size. 
+   
